@@ -1,0 +1,38 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: rouge
+markdown: kramdown
+disqus: shuatishuati
+google_analytics: nonstatic
+title: 大家一起来刷题
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: 刷遍面试题，随时跳槽都不急
+
+description: 
+author:
+  name: ShuaTiShuaTi
+  email: ShuaTiShuaTi@Outlook.com
+  github: ShuaTiShuaTi
+  twitter: 
+  pinterest: 
+  linkedin: 
+  bio: 生命不息，刷题不止
+  email_md5: f6d206bfd0c515fbf833354c7eb671ad
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+# set it as url of an image
+sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+gems:
+  - jekyll-paginate
